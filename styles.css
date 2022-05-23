@@ -71,11 +71,12 @@ ul {
 }
 
 button {
-    padding: 5px 20px;
+    padding: 8px 24px;
     background-color: #3882f6;
-    border-radius: 9%;
+    border-radius: 5px;
     color: #F9Faf8;
     border: 0;
+    font-weight: 700;
 }
 
 .header ,
@@ -125,7 +126,7 @@ button {
     gap: 10px;
 }
 
-.text {
+.subtext {
     max-width: 175px;
     text-align: center;
     font-size: 18px;
@@ -149,4 +150,27 @@ p {
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.action-left p {
+    margin: 0;
+}
+
+.action {
+    display: flex;
+    border: solid 1px;
+    padding: 30px 160px;
+    margin: 75px 20% 75px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.action button {
+    border: solid 2px white;
+    padding: 8px 24px;
+    font-weight: bold;
 }
