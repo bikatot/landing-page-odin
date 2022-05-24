@@ -158,7 +158,6 @@ p {
 
 .action {
     display: flex;
-    border: solid 1px;
     padding: 30px 160px;
     margin: 75px 20% 75px;
     background-color: #3882f6;
@@ -171,6 +170,5 @@ p {
 
 .action button {
     border: solid 2px white;
-    padding: 8px 24px;
     font-weight: bold;
 }
